@@ -207,3 +207,5 @@ ssh-keygen -t rsa -C "github的邮箱地址"
 + git push -u origin master
 ## 12.更新文件，同步文件
 git pull
+## 13.克隆仓库内容到本地
+git clone 仓库网址
