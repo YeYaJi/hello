@@ -223,6 +223,9 @@ git clone 仓库网址
 ## 15.分支操作
 添加文件到分支上：git checkout -b 分支名（切换到该分支上）
 	vim 文件名(echo "新建文件">文件名1)
+	
 	git add 文件名1
+	
 	git commit -m '新增文件'
+	
 	git push origin 分支名
