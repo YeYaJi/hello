@@ -178,3 +178,18 @@ su root 授予root权限 r代表可读，用4表示。 w 代表可写，用2表�
 + media
 
 + memstick
+# git的使用
+## 1.创建本地仓库
+空的：git init
+## 2.配置信息
++ git config --global user.email '13633217285@163.com'
+
++ git config --global user.name 'favorrite'
+## 3.添加到暂存区
+git add 文件名
+## 4.查看状态
+git status
+## 5.提交
+git commit -m '备注'
+## 6.从本地仓库修改至远程仓库
+git push
