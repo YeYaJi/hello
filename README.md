@@ -191,5 +191,5 @@ git add 文件名
 git status
 ## 5.提交
 git commit -m '备注'
-## 6.从暂存区修改至远程仓库
+## 6.修改
 git push
