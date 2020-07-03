@@ -209,3 +209,20 @@ ssh-keygen -t rsa -C "github的邮箱地址"
 git pull
 ## 13.克隆仓库内容到本地
 git clone 仓库网址
+## 14.分支
++ 查看分支：git branch
+
++ 增加分支：git branch 分支名
+
++ 切换分支：git checkout 分支名
+
++ 合并分支：git merge 分支名（合并前切换到master）
+
++ 删除分支：git branch -D 分支名（不能删除正在操作的分支）
+  远程删除分支：git push origin -d 分支名
+## 15.分支操作
+添加文件到分支上：git checkout -b 分支名（切换到该分支上）
+	echo "新建文件">文件名1
+	git add 文件名1
+	git commit -m '新增文件'
+	git push origin 分支名
