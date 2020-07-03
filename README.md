@@ -193,3 +193,17 @@ git status
 git commit -m '备注'
 ## 6.修改
 git push
+## 7.恢复文件
+git checkout 文件名
+## 8.查看历史版本
+git log （方便恢复）
+## 9.恢复版本
+git reset --hard 版本号
+## 10.生成ssh密匙
+ssh-keygen -t rsa -C "github的邮箱地址"
+## 11.从暂存区修改至远程仓库
++ git remote add origin 仓库网址
+
++ git push -u origin master
+## 12.更新文件，同步文件
+git pull
